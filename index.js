@@ -20,11 +20,11 @@ if (localStorage.getItem("isFirstTime") !== "false") {
 if (localStorage.getItem("isFirstTime") === "true") {
   localStorage.setItem("isFirstTime", "false");
   alert(
-    "Hello Player! I am CHIRAG 😎 Devloper of this Ping Pong Game! \n🟩This is your first time Go and show that you are a real Gamer🟩 \n\nGAME RULES:\n1. To start the Game Press Enter \n2. For moving the rod press left-right arrow key or A&D key"
+    "Hello Player! I am VAISHNAVI , Devloper of this Ping Pong Game! \nGAME RULES:\n1. To start the Game Press Enter \n2. For moving the rod press left-right arrow key or A&D key"
   );
 } else {
   alert(
-    "-------------------------------------------------------------------\nHello Player! I am CHIRAG 😎 Devloper of this Ping Pong Game! \n-------------------------------------------------------------------\nGAME RULES:\n1. To start the Game Press Enter \n2. For moving the rod press left-right arrow key or A&D key\n------------------------------------------------------------------- \nRod 1 has maximum score of " +
+    "-------------------------------------------------------------------\nHello, I am VAISHNAVI 😎 Devloper of this Ping Pong Game! \n-------------------------------------------------------------------\nGAME RULES:\n1. To start the Game Press Enter \n2. For moving the rod press left-right arrow key or A&D key\n------------------------------------------------------------------- \nRod 1 has maximum score of " +
       localStorage.getItem("rod1_max_score") +
       "\nRod 2 has maximum score of " +
       localStorage.getItem("rod2_max_score")
@@ -54,7 +54,7 @@ function set_interval() {
 
     //game over alert
     alert(
-      "GAME OVER😓 \n------------------------------\nRod 1 Current Score: " +
+      "GAME OVER \n------------------------------\nRod 1 Current Score: " +
         rod1_Score +
         "\nRod 2 Current Score: " +
         rod2_Score +
